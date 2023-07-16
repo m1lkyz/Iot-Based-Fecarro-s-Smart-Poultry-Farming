@@ -1,0 +1,22 @@
+<!--HEADER TEXT-->
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Feccaro's Poultry
+    </ion-title>
+  </ion-toolbar>
+  </ion-header><br><br>
+
+
+  <ion-content>
+    <!--CONTAINER FOR LOGIN FORM-->
+   <div class="form-box">
+		<div class="header-text">
+			Login
+		</div>
+      <input  [(ngModel)]="Username" placeholder="Username" type="text">
+      <input [(ngModel)]="Password" placeholder="Password" type="password">
+      <button (click)="login()">LogIn</button>
+	 </div>
+  </ion-content>
+
